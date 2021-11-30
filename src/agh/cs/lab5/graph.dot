@@ -1,0 +1,29 @@
+strict digraph "" {
+	a0	 [layer=0,
+		name=a0];
+	c0	 [layer=1,
+		name=c0];
+	a0 -> c0;
+	d0	 [layer=0,
+		name=d0];
+	b0	 [layer=2,
+		name=b0];
+	d0 -> b0;
+	g0	 [layer=1,
+		name=g0];
+	d0 -> g0;
+	h0	 [layer=0,
+		name=h0];
+	h0 -> g0;
+	c0 -> b0;
+	a1	 [layer=3,
+		name=a1];
+	b0 -> a1;
+	e0	 [layer=3,
+		name=e0];
+	b0 -> e0;
+	f0	 [layer=2,
+		name=f0];
+	g0 -> f0;
+	f0 -> e0;
+}

@@ -1,0 +1,10 @@
+a b c d e f g h
+
+a: x = 0
+b: x = x * y
+c: x = x + 2
+d: y = 1
+e: y = y - z
+f: z = z * v
+g: z = v + y
+h: v = z - v
